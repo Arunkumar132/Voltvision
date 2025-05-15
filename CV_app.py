@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load the trained models
-model1_filename = r"C:\Users\Thamo\Downloads\random_forest_model.pkl"  # Replace with the actual path
-model2_filename = r"C:\Users\Thamo\Downloads\DPV.pkl"        # Replace with the path to the second model
+model1_filename = r"D:\Project\Voltvision\random_forest_model.pkl"  # Replace with the actual path
+model2_filename = r"D:\Project\Voltvision\DPV.pkl"        # Replace with the path to the second model
 loaded_model1 = joblib.load(model1_filename)
 loaded_model2 = joblib.load(model2_filename)
 
